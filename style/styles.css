@@ -18,12 +18,14 @@
     linear-gradient( 85deg, rgba(0,0,0,0) 80%, #74a6ae 80%);
 }
 
-legend{
+h1{
     display: block;
     padding: 5px 10px;
-    border: 4px solid green;
     background-color: tomato;
+    width: max-content;
     color: whitesmoke;
+    font: 15px bold Broadway;
+    margin: 2px 20%;
 }
 
 div{
