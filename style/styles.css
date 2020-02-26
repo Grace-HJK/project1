@@ -1,8 +1,8 @@
 #myForm{
     border: 1px solid #444;
     padding: 5px 20px;
-    max-width: min-content;
     margin: 2% 20% 0 20%;
+    min-width: max-content;
     background-color: #E4E4D9;
     background-image: linear-gradient(175deg, rgba(0,0,0,0) 95%, #8da389 95%),
     linear-gradient( 85deg, rgba(0,0,0,0) 95%, #8da389 95%),
@@ -19,13 +19,8 @@
 }
 
 h1{
-    display: block;
-    padding: 5px 10px;
-    background-color: tomato;
-    width: max-content;
-    color: whitesmoke;
-    font: 15px bold Broadway;
-    margin: 2px 20%;
+    font: xx-large Elephant;
+    text-align: center;
 }
 
 div{
@@ -34,6 +29,10 @@ div{
     clear: left;
     margin: 5px;
     text-align: left;
+}
+
+.form{
+    line-height: 30px;
 }
 
 #submitButton{
@@ -46,7 +45,7 @@ div{
     border-radius: 8px;
     padding: 10px 16px;
     text-decoration: none;
-    margin: 4px 10px 4px 2px;
+    margin: 8px 5% 4px 28%;
     cursor: pointer;
 }
 
@@ -61,7 +60,7 @@ div{
     border-radius: 8px;
     padding: 10px 16px;
     text-decoration: none;
-    margin: 4px 2px;
+    margin: 8px 28% 4px 5%;
     cursor: pointer;
 }
 
@@ -77,18 +76,17 @@ div{
     border: 2px solid royalblue;
 }
 
-@media screen and (min-width: 600px){
-    #myForm{
-        max-width: 60%;
+@media screen and (max-width: 600px){
+    div{
+        max-width: fit-content;
         height: auto;
     }
 }
 
 @media screen and (min-width: 1200px){
     #myForm{
-        min-width: 700px;
+        min-width: 500px;
         height: auto;
-        margin-right: auto;
-        margin-left: auto;
+        margin: 5px 30%;
     }
 }
