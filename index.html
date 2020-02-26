@@ -12,29 +12,38 @@
 <body>
 
   <h1>My Info</h1>
+  <div id="myForm">
+  <form method='get' action=#null>
+    <div class="form">
+      <label>First Name: </label>
+      <input type="text" id="fname" name="fname" placeholder="first name">
+    </div>
 
-  <form method='get' action=#null id="myForm">
-    <fieldset>
-      <div>
-        <label>Phone Number: </label>
-        <input type="tel" name="phone_field" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
-        <small>Format: 123-456-7890</small>
-      </div>
+    <div class="form">
+      <label>Last Name: </label>
+      <input type="text" id="lname" name="lname" placeholder="last name">
+    </div>
 
-      <div>
-        <label>Email Address: </label>
-        <input type="email" name="email_field" placeholder="gracekwon@gmail.com" required>
-        <small>Format: gracekwon@gmail.com</small>
-      </div>
+    <div class="form">
+      <label>Phone Number: </label>
+      <input type="tel" name="phone_field" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+      <small>Format: 123-456-7890</small>
+    </div>
 
-      <div>
-        <label>Date of Birth: </label>
-        <input type="date" name="date_of_birth" required>
-      </div>
+    <div class="form">
+      <label>Email Address: </label>
+      <input type="email" name="email_field" placeholder="gracekwon@gmail.com" required>
+      <small>Format: gracekwon@gmail.com</small>
+    </div>
 
-      <div id="submitButton">Submit</div>
-      <div id="resetButton">Reset</div>
-    </fieldset>
+    <div class="form">
+      <label>Date of Birth: </label>
+      <input type="date" name="date_of_birth" required>
+    </div>
+
+    <div id="submitButton">Submit</div>
+    <div id="resetButton">Reset</div>
   </form>
+  </div>
 </body>
 </html>
