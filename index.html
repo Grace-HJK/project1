@@ -10,40 +10,41 @@
 </head>
 
 <body>
-
   <h1>My Info</h1>
+  <h2>Please fill in the information below to receive emails from us.</h2>
+
   <div id="myForm">
-  <form method='get' action=#null>
-    <div class="form">
-      <label>First Name: </label>
-      <input type="text" id="fname" name="fname" placeholder="first name">
-    </div>
+    <form method='get' action=#null>
+      <div class="form">
+        <label for="fname">First Name: </label>
+        <input type="text" id="fname" name="fname" placeholder="first name">
+      </div>
 
-    <div class="form">
-      <label>Last Name: </label>
-      <input type="text" id="lname" name="lname" placeholder="last name">
-    </div>
+      <div class="form">
+        <label for="lname">Last Name: </label>
+        <input type="text" id="lname" name="lname" placeholder="last name">
+      </div>
 
-    <div class="form">
-      <label>Phone Number: </label>
-      <input type="tel" name="phone_field" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
-      <small>Format: 123-456-7890</small>
-    </div>
+      <div class="form">
+        <label for="phone_number">Phone Number: </label>
+        <input type="tel" id="phone_number" name="phone_field" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        <small>Format: 123-456-7890</small>
+      </div>
 
-    <div class="form">
-      <label>Email Address: </label>
-      <input type="email" name="email_field" placeholder="gracekwon@gmail.com" required>
-      <small>Format: gracekwon@gmail.com</small>
-    </div>
+      <div class="form">
+        <label for="email">Email Address: </label>
+        <input type="email" id="email" name="email_field" placeholder="gracekwon@gmail.com" required>
+        <small>Format: gracekwon@gmail.com</small>
+      </div>
 
-    <div class="form">
-      <label>Date of Birth: </label>
-      <input type="date" name="date_of_birth" required>
-    </div>
+      <div class="form">
+        <label for="bday">Date of Birth: </label>
+        <input type="date" id="bday" name="date_of_birth" required>
+      </div>
 
-    <div id="submitButton">Submit</div>
-    <div id="resetButton">Reset</div>
-  </form>
+      <div id="submitButton">Submit</div>
+      <div id="resetButton">Reset</div>
+    </form>
   </div>
 </body>
 </html>
