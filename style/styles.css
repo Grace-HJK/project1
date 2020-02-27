@@ -88,6 +88,18 @@ div{
         max-width: fit-content;
         height: auto;
     }
+
+    #submitButton{
+        margin: 8px 4% 4px 5%;
+    }
+
+    #resetButton{
+        margin: 8px 5% 4px 4%;
+    }
+
+    h1{
+        margin-bottom: 10px;
+    }
 }
 
 @media screen and (min-width: 980px){
