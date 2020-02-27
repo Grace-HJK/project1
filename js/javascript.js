@@ -2,11 +2,12 @@ function init() {
     var button = document.getElementById('submitButton');
 
     function submit() {
-        var fname = document.forms["myForm"]["first_name"].value;
-        var lname = document.forms["myForm"]["last_name"].value;
-        var phone = document.forms["myForm"]["phone_field"].value;
-        var email = document.forms["myForm"]["email_field"].value;
-        var bday = document.forms["myForm"]["date_of_birth"].value;
+        // var fname = document.forms["myForm"]["first_name"].value;
+        var fname = document.getElementById("fname").value;
+        var lname = document.getElementById("lname").value;
+        var phone = document.getElementById("phone_number").value;
+        var email = document.getElementById("email").value;
+        var bday = document.getElementById("bday").value;
         if (fname === "" || lname === "" || phone === "" || email === "" || bday === "")
         {
             alert("Please fill in the form");
