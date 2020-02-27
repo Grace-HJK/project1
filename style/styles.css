@@ -19,11 +19,25 @@
 }
 
 h1{
-    font: xx-large Elephant;
+    font: 45px "CommercialScript BT";
     text-align: center;
+    color: fuchsia;
 }
 
-h2{
+#welcome{
+    margin: 10px 0;
+}
+
+#desc{
+    width: 70%;
+    text-align: center;
+    margin: 5px 15% 15px 15%;
+    font-size: large;
+    font-family: Elephant;
+    font-weight: normal;
+}
+
+h3{
     font-family: "Comic Sans MS";
     font-weight: normal;
     font-size: medium;
